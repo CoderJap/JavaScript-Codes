@@ -1,0 +1,22 @@
+body{
+    background-color:rgb(116, 242, 242);
+}
+
+#countLabel{
+ 
+    display : block;
+    text-align:center;
+    font-size:50px;
+
+}
+
+.btn{
+    display:flex;
+    flex-direction: row;
+
+    
+}
+.Btns{
+    align-items:center;
+    justify-content: space-between;
+}
