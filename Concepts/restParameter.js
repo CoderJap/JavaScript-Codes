@@ -57,6 +57,7 @@ console.log(totalAvg);
 
 // --- COMBINING STRINGS EXAMPLE---
 
+
 function combineStrings(...strings){
     return strings.join("-");
 }
@@ -64,6 +65,7 @@ function combineStrings(...strings){
 const fullName = combineStrings("Mr.","Spongebob","Square","Pants")
 
 console.log(fullName);
+
 
 
 
