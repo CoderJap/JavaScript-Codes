@@ -10,7 +10,7 @@ function hello(){
 // function expression = a way to define function as 
 //                       values or variables
 
-// ---HELLO EXAMPLE OF FUNCTION EXPRESSION---
+// ---BASIC EXAMPLE OF FUNCTION EXPRESSION---
 
 /*
 const hello = function(){
@@ -20,7 +20,7 @@ const hello = function(){
 hello();
 */
 
-// ---MAP EXAMPLE OF FUNCTION EXPRESSION---
+// ---EXAMPLE OF FUNCTION EXPRESSION USING MAP , REDUCE AND FILTER---
 
 const numbers =[1,2,3,4,5,6];
 const squares = numbers.map(function(element){
@@ -28,5 +28,17 @@ const squares = numbers.map(function(element){
 });
 
 console.log(squares);
+
+const evenNums = numbers.filter(function(){
+    return element&2===0;
+});
+
+console.log(evenNums);
+
+const total = numbers.reduce(function(accumulator,element){
+    return accumulator+element;
+});
+
+console.log(total);
 
 
