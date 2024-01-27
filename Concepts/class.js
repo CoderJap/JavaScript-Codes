@@ -4,10 +4,12 @@
 
 
 class Product{
+
     constructor(name,price){
         this.name = name;
         this.price = price;
     }
+    
     // inside class there is no use of function keyword 
     displayProduct(){
         console.log(`Product is: ${this.name}`);
