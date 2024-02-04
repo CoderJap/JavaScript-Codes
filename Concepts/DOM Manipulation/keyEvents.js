@@ -3,11 +3,13 @@
 //                  document.addEventListener(event , callback)
 
 
-// ----- KEY DOWN----- (When we press any key then this event will start)
+// ----- KEY DOWN----- (Whenever we press any key, then this event starts)
 
 document.addEventListener("keydown", event => {
     conosle.log(`Key down = ${event.key}`);
 });
+
+// ----- KEY UP ----- (Whenever we release any key, then this event starts)
 
 document.addEventListener("keyup", event => {
     conosle.log(`Key up = ${event.key}`);
