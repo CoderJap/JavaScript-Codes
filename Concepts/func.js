@@ -42,3 +42,6 @@ const total = numbers.reduce(function(accumulator,element){
 console.log(total);
 
 
+
+
+
